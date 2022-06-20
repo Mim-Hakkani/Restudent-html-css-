@@ -55,6 +55,115 @@ body{
     margin:0 auto;
 }
 
+/* contact us section  */
+
+.contact-us{
+    height: 400px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.contact-info{
+    padding: 50px 90px;
+}
+
+.google-map{
+    overflow: hidden;
+}
+
+.contact-header h2{
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+/* border of contact section  */
+.contact-header img{
+    display: block;
+    margin: 0 auto;
+}
+
+.contact-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 200px;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.conact-indevidual{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    align-items: center;
+}
+
+ .info{
+    width: 77%;
+}
+/* .info2{
+    margin-left: 35px;
+}  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* footer-top section  */
 
 .footer-top{
@@ -105,7 +214,8 @@ body{
     align-items: center;
     height:200px;
     color:var(--light);
-    font-size: 14px;
+    font-size: 16px;
+    line-height: 25px;
 }
 .follow-footer{
    
