@@ -54,6 +54,15 @@ body{
     padding:o 15px;
     margin:0 auto;
 }
-h1{
-    color:var(--primary)
+
+/* copyright bottom footer  */
+.copyright-footer{
+    background-color: var(--footer);
+    color: #FEFEFE;
+     padding: 14px 0px;
+}
+.copyright-footer p{
+    font-size: 12px;
+    text-align: center;
+   
 }
