@@ -59,7 +59,7 @@ body{
 
 .footer-top{
     background-color: var(--secondary);
-    height:300px;
+    height:320px;
     padding: 30px;
 
     display: grid;
@@ -98,17 +98,23 @@ body{
 
 }
 
-.footer-nav-link{
+.footer-nav-link,.social-body{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    height:190px;
+    height:200px;
     color:var(--light);
     font-size: 14px;
 }
 .follow-footer{
-    border: 1px solid salmon;
+   
+}
+
+.social{
+    display: flex;
+    justify-content: space-between;
+    width: 85px;
 }
 .gallary-footer{
    
