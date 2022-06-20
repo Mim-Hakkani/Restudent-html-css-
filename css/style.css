@@ -95,13 +95,35 @@ body{
 }
  
 .quick-footer{
-    border: 1px solid salmon;
+
+}
+
+.footer-nav-link{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height:190px;
+    color:var(--light);
+    font-size: 14px;
 }
 .follow-footer{
     border: 1px solid salmon;
 }
-.instragram-footer{
-    border: 1px solid salmon;
+.gallary-footer{
+   
+}
+
+.gallary-items{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap:4px;
+    grid-row-gap: 7px;
+    
+}
+.gallary-items img{
+    width: 100%;
+    height: 60px;
 }
 
 .footer-title{
