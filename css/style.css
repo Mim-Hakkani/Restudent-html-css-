@@ -55,6 +55,35 @@ body{
     margin:0 auto;
 }
 
+/* big deails section  */
+.deals-offer{
+    height: 450px;
+    background-image: url('/images/food-table.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.offer-area{
+    padding: 70px;
+}
+
+.offer-date {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.time{
+    background-color: var(--primary);
+    flex-basis: 200px;
+    text-align: center;
+    margin: 10px;
+    height: 150px;
+}
+
 /* blog area  */
 .blog-area{
     display: grid;
