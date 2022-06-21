@@ -55,6 +55,52 @@ body{
     margin:0 auto;
 }
 
+.hero-section {
+    margin: 40px 0px;
+    height: 450px;
+    background-image: url('/images/hero.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center center;
+    
+}
+.hero-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subtitle{
+    display: flex;
+}
+.hero-text{
+    text-align: left;
+}
+.hero-text h1{
+    line-height: 40px;
+    font-size: 40px;
+    margin: 8px 0px;
+
+}
+.hero-p{
+    color: var(--secondary);
+    line-height: 20px;
+    width: 80%;
+    text-align: center;
+}
+
+.hero-button{
+    display: grid;
+    grid-template-columns: 150px 150px;
+    grid-column-gap: 20px;
+ }
+
+ .hero-button button{
+    border: 1px solid transparent;
+    border-radius: 4px;
+ }
+
+
 /* products slider  */
 .products-slider{
     background-color:rgb(240, 239, 239);
