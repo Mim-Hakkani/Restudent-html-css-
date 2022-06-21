@@ -55,6 +55,42 @@ body{
     margin:0 auto;
 }
 
+/* header  */
+header{
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+    padding: 7px;
+    margin: 10px 30px;
+    
+}
+.header-left,.header-right{
+    flex-basis: 300px;
+}
+
+/* header left  */
+.header-left-1,.header-right-1{
+    display: flex;
+    justify-content: space-evenly;
+}
+.header-left-top-text h6,
+.header-right-top-text h6 {
+    margin-top: 5px;
+    font-size: 13px;
+    line-height: 17px;
+}
+.header-left-top-text p,
+.header-right-top-text p{
+    margin: 0px!important;
+    font-size: 13px;
+}
+.header-logo{
+    flex-grow: 1;
+}
+.header-logo img{
+    margin: 0 auto;
+    display: block;
+}
 /* navbar section  */
 nav{
     margin: 20px 0px;
@@ -143,7 +179,10 @@ ul li a {
     background-color:rgb(240, 239, 239);
     margin: 70px 0px;
 }
-
+.contact-header h2{
+    line-height: 30px;
+    margin-bottom: 10px;
+}
  
 .card{
     background-color: rgb(255, 255, 255);
