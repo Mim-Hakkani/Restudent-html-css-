@@ -55,6 +55,173 @@ body{
     margin:0 auto;
 }
 
+/* products slider  */
+.products-slider{
+    background-color: var(--light);
+}
+/* swipper js  */
+
+ .swiper {
+        width: 100%;
+        height: 100%;
+      }
+
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+      }
+
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+ 
+.card{
+    background-color: #fff;
+    padding: 10px;
+   
+}
+
+.star{
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        
+      }
+
+.star img {
+        height: 14px;
+        width: 14px;
+        margin: 2px;        
+ }
+
+.addCart{
+background-color: var(--primary);
+overflow: hidden;
+display: flex;
+justify-content: space-around;
+/* height: 40px;*/
+ width: 240px; 
+ padding: 8px; 
+align-items: center;
+margin:0 auto;
+}
+ 
+.addCart img{
+        height: 15px;
+        width: 25px;
+        overflow: hidden;
+    }
+.addCart button{
+    padding:12px 30px;
+    border: 0px;
+    
+}
+    
+/* about hakkani restudents  */
+.about-restudent{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 15px;
+}
+.about-details h3{
+    font-size: 1.4rem;
+    color: var(--secondary);
+    margin: 15px 0px;
+    font-weight: bold;
+}
+.about-details p{
+    text-align: justify;
+    margin: 25px 0px;
+}
+
+/* our services sectios  */
+
+.services-details{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 20px;
+    padding: 15px 40px;
+    margin:30px 0px;
+    /* background-color: gray; */
+
+}
+.service-1,
+.service-2,
+.service-3{
+    padding: 15px;
+    background-color: #fff;
+    box-shadow: 1px 3px 1px #ddd;
+    border: 1px solid #cdcdcd;
+}
+
+.services-details img{
+    margin: 0 auto;
+    display: block;
+}
+.services-details h3,p{
+    text-align: center;
+    line-height: 25px;
+    margin: 15px 0px;
+}
+.service-1 button,.service-2 button,.service-3  button{
+    margin: 0 auto;
+    display: block;
+    background-color: var(--footer);
+    transition: 0.5 ease-in-out;
+    padding: 7px 15px;
+    font-size: 16px;
+    color:#fff;
+    border: 1px solid transparent;
+
+}
+.service-1 button:hover,.service-2 button:hover ,.service-3 button:hover {
+    background-color: transparent;
+    color:var(--footer);
+    border:1px solid gray
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* big deails section  */
 .deals-offer{
     height: 450px;
